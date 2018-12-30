@@ -6,3 +6,13 @@ permalink: /:categories/:title/
 markdown: kramdown
 feed:
   path: atom.xml
+  
+# Front Matter Defaults
+defaults:
+  # Posts defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      share: true
