@@ -1,3 +1,8 @@
 remote_theme: "mmistakes/so-simple-theme"
 baseurl: "/website"
 title: "熊猫的日常"
+# Build settings
+permalink: /:categories/:title/
+markdown: kramdown
+feed:
+  path: atom.xml
