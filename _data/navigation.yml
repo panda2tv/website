@@ -1,6 +1,6 @@
 # Sample site navigation bar links
 
-- title: Home
+- title: 主页
   url: /
 - title: Posts
   url: /posts/
